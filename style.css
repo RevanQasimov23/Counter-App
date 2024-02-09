@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #fff;    
+}
+
+.container{
+ display: flex; 
+ align-items: center; 
+ justify-content: center;
+}
+
+.application{
+width: 600px;
+height: 500px;
+background-color: wheat;
+border-radius: 10rem 0rem 5rem 0rem;  
+margin-top: 9%;
+}
+
+.application h1{
+display: flex; 
+align-items: center;  
+justify-content: center; 
+margin-top: 3%;
+}
+
+.application p{
+ padding-left: 50%;
+ padding-top: 30%;   
+}
+
+.menfi{
+ padding-left: 10%;  
+ padding-right: 10%;
+ color:red;
+ border-radius: 2rem;
+ font-size: 30px;
+}
+
+.musbet{
+    padding-left: 10%;  
+    padding-right: 10%;
+    color:green;
+    border-radius: 2rem;
+    font-size: 30px;
+   }
+
+.button{
+    padding-left: 36%;
+    padding-top: 5%;
+} 
+
+.button2{
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.reset{
+    padding-left: 8%;  
+    padding-right: 10%;
+    color:blue;
+    border-radius: 2rem;  
+    font-size: 30px; 
+}
+
+.menfi:hover {
+opacity: 0.9;    
+}
+
+.musbet:hover{
+opacity: 0.9;    
+}
+
+.reset:hover{
+opacity: 0.9;    
+}
